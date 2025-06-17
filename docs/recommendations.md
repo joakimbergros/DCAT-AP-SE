@@ -20,7 +20,7 @@ Ibland vill man ge åtkomst till en datamängd via en mängd filer av samma slag
 För den som upprepar `dcat:downloadURL` kan det vara lämpligt att tillhandahålla en `dcterms:title` på varje URL för att ge användare en möjlighet att särskilja de olika filerna. Till exempel, om filerna motsvarar en tidsserie där varje fil innehåller ett år kan titeln helt enkelt vara året.
 
 ## 5. Att koppla samman en datamängd med en arkivredovisning
-Datamängder som arkiveras hamnar i en arkivredovisning. Hur en datamängd arkiveras hur kan variera även om det finns så kallade Förvaltnings Gemensamma Specifikationer (FGS). För arkivinstitutioner som levererar till Nationella Arkiv Databasen (NAD) används standarden EAD som påbjuder användning av referenskoder. Referenskoder kan uppges på olika nivåer, exempelvis klassificeringsstruktur, strukturenhet, förvaringsenhet, beroende på hur informationen har strukturerats. Följande är ett exempel på en referenskod `SE/RA/420508.02`.
+Datamängder som arkiveras hamnar i en arkivredovisning. Hur en datamängd arkiveras kan variera även om det finns så kallade Förvaltnings Gemensamma Specifikationer (FGS). För arkivinstitutioner som levererar till Nationella Arkiv Databasen (NAD) används standarden EAD som påbjuder användning av referenskoder. Referenskoder kan uppges på olika nivåer, exempelvis klassificeringsstruktur, strukturenhet, förvaringsenhet, beroende på hur informationen har strukturerats. Följande är ett exempel på en referenskod `SE/RA/420508.02`.
  
 För att koppla samman en datamängd med arkivredovisningen finns två vägar att gå:
 
@@ -58,7 +58,7 @@ Det är utgivaren som ansvarar att datamängden kommer med i en PSI-förteckning
 
 I vissa situationer är producenten av datamängden inte samma som utgivaren. Det kan vara så att en myndighet tar hjälp av en annan organisation för att ta fram hela eller delar av datamängden. I de fallen kan man ange att den organisation är producent (eng. creator) av datamängden. Om man just producentrollen inte passar för att beskriva hur en annan organisation hjälper till i hantering av datamängden kan man använda fältet [övrig aktör](/dcat/sv/#prov%3AAttribution) för att ange detta. De aktörsroller som finns att välja på där är användare, distributör, förvaltare, leverantör, undersökningsledare, upphovsman, vidareförädlare, ägare.
 
-Dessa aktörsroller kommer från INSPIRE-standarden där utgivare, prodcuent och kontaktuppgift är bortrensade för att inte möjliggöra två olika sätt att uttrycka samma aktörsroll.
+Dessa aktörsroller kommer från INSPIRE-standarden där utgivare, producent och kontaktuppgift är bortrensade för att inte möjliggöra två olika sätt att uttrycka samma aktörsroll.
 
 Notera att om inget annat anges antas att producent (och alla övriga aktörsroller) är densamma som utgivaren, du behöver alltså inte ange detta explicit.
 
